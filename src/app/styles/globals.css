@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+/* Référence pour développement */
+/* :root{
+  color: #333333;
+  color: #555555;
+  color: #888888;
+  color: #dedede;
+  color: #f9f9f9;
+
+  color: #a8715a;
+  color: #dd8560;
+
+  color: #e0cfba;
+  color: #f8f0e7;
+  color: #fcfcfc;
+} */
+
+@theme {
+  /* Colors */
+  --color-*: initial;
+
+  --color-gray-900: #333333;
+  --color-gray-800: #555555;
+  --color-gray-700: #888888;
+  --color-gray-100: #dedede;
+  --color-gray-50: #f9f9f9;
+
+  --color-primary: #a8715a;
+  --color-secondary: #dd8560;
+
+  --color-neutral-400: #e0cfba;
+  --color-neutral-300: #f8f0e7;
+  --color-neutral-200: #fcfcfc;
+
+
+  /* Font-size */
+  --text-xxs: 0.75rem; /* 12px */
+  --text-xs: 0.875rem; /* 14px */
+  --text-sm: 0.9375rem; /* 15px */
+  --text-base: 1rem; /* 16px */
+  --text-lg: 1.125rem; /* 18px */
+
+  /* Line-height */
+  --leading-xs: 1.125rem; /* 18px */
+  --leading-sm: 1.25rem; /* 20px */
+  --leading-base: 1.5rem; /* 24px */
+  --leading-lg: 2.5rem; /* 40px */
+
+  /* Letter-spacing */
+  --tracking-wider: 0.125em; /* 2px */
+  --tracking-widest: 0.25em;   /* 4px */
+
+
+}
